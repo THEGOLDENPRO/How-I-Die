@@ -14,7 +14,7 @@ def get_death():
 
     # Generate random number.
     while True:
-        random_num = random.randint(1, len(list_of_deaths) - 1)
+        random_num = random.randint(1, len(list_of_deaths))
         if not random_num == last_random_num:
             break
         
