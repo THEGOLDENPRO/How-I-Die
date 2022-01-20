@@ -291,7 +291,7 @@ a:focus-visible {
 	border-radius: 0.5rem;
 	overflow: hidden;
 	color: #fff;
-	background: #ed7b84;
+	background: #1F7A8C;
 }
 
 .button--mimas span {
@@ -301,7 +301,7 @@ a:focus-visible {
 
 .button--mimas::before {
 	content: '';
-	background: #f92a82;
+	background: #022B3A;
 	width: 130%;
 	left: -10%;
 	transform: skew(30deg);

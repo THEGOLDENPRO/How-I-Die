@@ -1,3 +1,18 @@
-{"deaths": ["You died from eating a bowl of black pudding.", 
-    "You died from swinging a baseball bat so hard that it ruptured your bladder.", 
-    "You died from a monkey bite."]}
+{
+    "deaths" : {
+        "1": {
+            "message" : "You died from eating a bowl of black pudding.",
+            "author" : "Dev Goldy"
+        },
+
+        "2" : {
+            "message" : "You died from swinging a baseball bat so hard that it ruptured your bladder.",
+            "author" : "Dev Goldy"
+        },
+
+        "3" : {
+            "message" : "You died from a monkey bite.",
+            "author" : "Dev Goldy"
+        }
+    }
+}
