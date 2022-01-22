@@ -9,3 +9,19 @@
 <p align="center">
  <img src="https://media.discordapp.net/attachments/436201641486581762/933758770901839892/unknown.png" width="760" />
 </p>
+
+# *Set Up*
+**1) Download git repo.**
+```
+git clone https://github.com/THEGOLDENPRO/How-I-Die
+```
+
+**2) Install all required dependencies.**
+```
+pip install -r requirements.txt
+```
+
+**3) Run app.**
+```
+python how_i_die.py
+```
