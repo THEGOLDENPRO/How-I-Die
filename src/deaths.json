@@ -13,6 +13,11 @@
         "3" : {
             "message" : "You died from a monkey bite.",
             "author" : "Dev Goldy"
+        },
+
+        "4" : {
+            "message" : "You died from getting your finger stuck in a industrial server fan.",
+            "author" : "Zeeraa"
         }
     }
 }

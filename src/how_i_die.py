@@ -1,6 +1,7 @@
 import eel
 import json
 import random
+import os
 from pygame import mixer 
 json_file = open("deaths.json")
 list_of_deaths:dict = (json.load(json_file))["deaths"]
@@ -28,4 +29,4 @@ def get_death():
     last_random_num = random_num
     return list_of_deaths[str(random_num)]["message"], list_of_deaths[str(random_num)]["author"]
 
-eel.start("index.html", size=(1000, 600), shutdown_delay=0.0)
+eel.start("web/index.html", size=(1000, 600), shutdown_delay=0.0)
