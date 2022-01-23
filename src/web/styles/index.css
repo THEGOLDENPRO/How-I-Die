@@ -8,6 +8,17 @@ h1 {
     color: transparent;
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
+    border: 15px solid;
+}
+
+.background {
+  background-color:#F5DBCB;
+  background: linear-gradient(to right, #F5DBCB, #f5d1cb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
 }
 
 .button_text {
